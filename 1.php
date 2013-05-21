@@ -48,7 +48,7 @@ if (!mysqli_real_connect($link, 'localhost', 'root', '1234', 'inka')) {
             . mysqli_connect_error());
 }
 
-echo 'Success... ' . mysqli_get_host_info($link) . "\n";
+echo 'Renato -> Success... ' . mysqli_get_host_info($link) . "\n";
 printf("Server version: %s\n", mysqli_get_server_info($link));
 
 mysqli_close($link);
